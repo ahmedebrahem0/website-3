@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Project</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <!-- Start NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+
+            <a href="#"><img src="./images/default-logo.png" alt=""></a>
+
+        <div class="m-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a  class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+    </nav>
+    <!-- End NavBar -->
+    <!-- Start Home -->
+    <section class="home-section" id="home">
+        <div class="container">
+            <!-- slide -->
+            <div id="carouselExampleControls" class="carousel slide centar" data-bs-ride="carousel">
+                <!-- inner div -->
+                <div class="carousel-inner">
+                    <!-- item 1  -->
+                    <div class=" info carousel-item active">
+                        <!-- item 1  -->
+                        <h1>Graphic Design</h1>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                        <p>Image from <a href="#">Freepik</a></p>
+                        <a href="#" class="btn lrn-more">Learn More</a>
+                    </div>
+                    <div class="info carousel-item">
+                        <!-- item 1  -->
+                        <h1>Branding Concepts</h1>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                        <p>Image from <a href="#">Freepik</a></p>
+                        <a href="#" class="btn lrn-more">Learn More</a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start About -->
+    <section class="about" id="about">
+            <div class="container">
+                <div class="both d-flex">
+                    <div class="half1 w-50">
+                        <img src="./images/9.png" alt="img" class="w-100">
+                        <p>Images from <a href="#">Freepik</a></p>
+                    </div>
+                    <div class="half2 w-50">
+                        <h2>About Us</h2>
+                        <p class="text-muted mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="sample">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- End About -->
+    <section class="contact-us">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="form-info">
+                    <h6>Join our newsletter</h6>
+                        <h2>Nam ultrices ultrices nec tortor pulvinar esteras loremips est orem.</h2>
+                        <p>3045 10 Sunrize Avenue, 123-456-7890<br>Mon &mdash; Fri: 9:00 am &mdash; 8:00 pm,<br>Sat &mdash; Sun: 9:00 am &mdash; 10 pm<br>
+                            <a href="#"> contacts@esbnyc.com </a>
+                        </p>
+                    <h2>Follow us</h2>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                    <span>©2022 Privacy policy</span>
+                </div>
+                <!-- ******************************************************** -->
+                <div class="form-info2 ">
+                    <h2>Contact us</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email</label><br>
+                                <input type="email" placeholder="Enter a valid email address" id="email" name="email-1" required=""><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="name-4354" class="u-label">Name</label><br>
+                                <input type="text" placeholder="Enter your Name" id="name" name="name"  required=""><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-94d2" class="u-label">Message</label><br>
+                                <textarea placeholder="Enter your message" rows="6" cols="50" id="message" name="message"  required="">
+                                </textarea><br>
+                            </div>
+                            <div class="form-group" >
+                                <a href="#"><input class="submit text-uppercase fw-bold" type="submit" value="submit" style="background-color: #fd853d;"></a>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+        <p class="">
+            Sample text. Sample text. Click to select the text box. Click again <br>or double click to start editing the text.
+        </p>
+        <div class="copyRights mt-5">
+            <a href="#">Website Templates</a>
+      
+            <span>created with</span>
+        
+        <a href="#" >ERROR TEAM  Web Design Camp Trainees</a>.
+        </div>
+        
+    </footer>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
